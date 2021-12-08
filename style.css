@@ -362,6 +362,67 @@ a:hover {
     z-index: 2;
 }
 
+/* MODIF THOMAS PAGE CONTACT ET TROUVER NOUS */
+
+.trouver{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.carte{
+    width: 80%;
+    margin-top: 10%;
+}
+
+.carte-photo{
+    width: 100%;
+    height: auto;
+}
+
+.locaux{
+    width: 80%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.locaux-photo{
+    width: 40%;
+    height: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items:  flex-start;
+}
+
+.form-group input{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.form-group select{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.form-group textarea{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.col-sm-6 p{
+    font-size: 1em;
+}
+
+/* FIN MODIF THOMAS PAGE CONTACT ET TROUVER NOUS FIN FIN FIN FIN FIN FIN FIN*/
+
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -1026,6 +1087,8 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+  
 }
 
 @media (max-width: 400px) {
@@ -1033,10 +1096,15 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+
+
 }
