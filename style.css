@@ -372,9 +372,17 @@ a:hover {
     align-items: center;
 }
 
+.trouver h1{
+    margin-top: 5%;
+}
+
+.trouver h2{
+    margin-top: 5%;
+}
+
 .carte{
     width: 80%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .carte-photo{
@@ -384,7 +392,7 @@ a:hover {
 
 .locaux{
     width: 80%;
-    margin-top: 10%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
 }
@@ -421,7 +429,25 @@ a:hover {
 
 /* FIN MODIF THOMAS PAGE CONTACT ET TROUVER NOUS FIN FIN FIN FIN FIN FIN FIN*/
 
+/* MODIF THOMAS FOOTER */
 
+footer .col-sm-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .col-sm-12 .row-no-gutters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+footer .col-sm-12 .row-no-gutters .comptesSociaux{
+    margin-right: 40%;
+}
 
 @media (min-width: 768px) {
     .site-navigation {

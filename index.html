@@ -5,12 +5,20 @@
     <meta name="keywords" content="seo, google, site web, site internet, agence design paris, 
 	agence design, agence design,agence design,agence design,agence design,agence design, 
 	agence design,agence design,agence design">
+
+	<!-- MODIF renseignement de la balise description-->
     <meta name="description" content="La Chouette Agence est spécialisée dans le web design, 
 	le graphisme multimédia et le conseil en communication digitale. Elle est basée à Lyon au coeur 
 	d'un bassin d'entreprises qu'elle accompagne grâce à son expertise et à ces services dans le 
 	dommaine du développement web. Ce faisant elle participe ainsi au dynamisme de la région 
 	Rhône-Alpes. Vous recherchez une agence de web design, n'hésitez pas à nous contacter!">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+	<!-- MODIF ajout d'une balise robots -->
+	<meta name="robots" content="index, follow"/>
+
+	
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
@@ -27,7 +35,7 @@
 
     <title> La chouette agence, agence de web design </title>       <!-- AMELIORATION -->
 
-    
+<!-- MODIF THOMAS AJOUT BALISE SCRIPT pour Google Analytics -->    
 <!-- Analytics -->
 												<!-- IL_FAUT   rajouter le script de google analytics -->
 <!-- Analytics END -->
@@ -60,7 +68,7 @@
 					<li>
 					</li>
 					<li>
-						<a href="page2.html">page2 &gt;</a>
+						<a href="contact.html">Contact &gt;</a>			<!--MODIF LIEN CONTACT-->
 					</li>
 				</ul>
 			</div>
@@ -78,8 +86,8 @@
 				<h1 class="text-center hero-bloc-text tc-white ">
 					La chouette agence.
 				</h1>
-				<div class="text-center">
-					<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+				<div class="text-center">   <!--MODIF LIEN CONTACT-->
+					<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 				</div>
 			</div>
 		</div>
@@ -149,7 +157,14 @@
 					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 				</h2>
 				<p class="text-center white">
-					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a><br>
+					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, 
+					qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. 
+					Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, 
+					n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau 
+					et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. 
+					<br><br>
+					<a class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a>
+					<br> <!--MODIF LIEN CONTACT-->
 				</p>
 			</div>
 		</div>
@@ -216,8 +231,8 @@
 			<h2 class="mg-md text-center tc-white">
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
-			<div class="col-sm-12 text-center">
-				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+			<div class="col-sm-12 text-center">		<!--MODIF LIEN CONTACT-->
+				<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 			</div>
 		</div>
 	</div>
@@ -225,7 +240,7 @@
 <!-- bloc-5-cta END -->
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -233,17 +248,17 @@
 					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
-					<div class="col-sm-3">
+					<div class="col-sm-3 comptesSociaux">
 						<div class="text-center">
 							<a class="social" href="https://twitter.com"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-3 comptesSociaux">
 						<div class="text-center">
 							<a class="social" href="https://fr-fr.facebook.com"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-3 comptesSociaux">
 						<div class="text-center">
 							<a class="social" href="https://dribbble.com"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
@@ -253,9 +268,10 @@
 							<a class="social" href="https://www.instagram.com"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
-					<div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+					<!-- <div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> -->
 				</div>
-				<div class="row">
+				<div class="row">    <!-- MODIF SUPPRESSION DES LIENS VERS Erreur 404 -->
+					<!--
 					<div class="col-sm-4">
 						Partenaires
 							<ul>
@@ -292,12 +308,12 @@
 							<li><a href="remontersurgoogle.com">remontersurgoogle.com</a></li>
 							<li><a href="vraiseofiable.com">vraiseofiable.com</a></li>
 						</ul>
-					</div>
+					</div>  -->
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 <!-- Footer - bloc-8 END -->
 
 </div>
