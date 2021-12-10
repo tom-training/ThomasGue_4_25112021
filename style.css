@@ -442,7 +442,7 @@ footer .col-sm-12 .row-no-gutters{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 footer .col-sm-12 .row-no-gutters .comptesSociaux{
@@ -450,6 +450,8 @@ footer .col-sm-12 .row-no-gutters .comptesSociaux{
 }
 
 @media (min-width: 768px) {
+
+    /* MODIF THOMAS ANIMATION DEFICIANTE SUPPRIMEE 
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -457,6 +459,8 @@ footer .col-sm-12 .row-no-gutters .comptesSociaux{
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+    
+
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -824,6 +828,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 1.1em;                   /* MODIF THOMAS booster la taille de la police rubrique Mission*/
 }
 
 .portfolio-thumb {
