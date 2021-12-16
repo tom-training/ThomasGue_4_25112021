@@ -362,96 +362,7 @@ a:hover {
     z-index: 2;
 }
 
-/* MODIF THOMAS PAGE CONTACT ET TROUVER NOUS */
-
-.trouver{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-items: center;
-}
-
-.trouver h1{
-    margin-top: 5%;
-}
-
-.trouver h2{
-    margin-top: 5%;
-}
-
-.carte{
-    width: 80%;
-    margin-top: 5%;
-}
-
-.carte-photo{
-    width: 100%;
-    height: auto;
-}
-
-.locaux{
-    width: 80%;
-    margin-top: 5%;
-    display: flex;
-    justify-content: center;
-}
-
-.locaux-photo{
-    width: 40%;
-    height: auto;
-}
-
-.row{
-    display: flex;
-    justify-content: space-around;
-    align-items:  flex-start;
-}
-
-.form-group input{
-    width: 100%;
-    margin-bottom: 5%;
-}
-
-.form-group select{
-    width: 100%;
-    margin-bottom: 5%;
-}
-
-.form-group textarea{
-    width: 100%;
-    margin-bottom: 5%;
-}
-
-.col-sm-6 p{
-    font-size: 1em;
-}
-
-/* FIN MODIF THOMAS PAGE CONTACT ET TROUVER NOUS FIN FIN FIN FIN FIN FIN FIN*/
-
-/* MODIF THOMAS FOOTER */
-
-footer .col-sm-12{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-footer .col-sm-12 .row-no-gutters{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-}
-
-footer .col-sm-12 .row-no-gutters .comptesSociaux{
-    margin-right: 40%;
-}
-
 @media (min-width: 768px) {
-
-    /* MODIF THOMAS ANIMATION DEFICIANTE SUPPRIMEE 
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -459,8 +370,6 @@ footer .col-sm-12 .row-no-gutters .comptesSociaux{
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
-    
-
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -828,7 +737,6 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-    font-size: 1.1em;                   /* MODIF THOMAS booster la taille de la police rubrique Mission*/
 }
 
 .portfolio-thumb {
@@ -1118,8 +1026,6 @@ h4 {
         width: 180px;
         height: 320px;
     }
-
-  
 }
 
 @media (max-width: 400px) {
@@ -1127,15 +1033,12 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-
-
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
-
-
-
 }
+
+
