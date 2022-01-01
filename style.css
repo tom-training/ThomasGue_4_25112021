@@ -1043,4 +1043,12 @@ h4 {
     }
 }
 
+.citationMaximeGuibard{
+    font-size: 1.5em;
+    font-style: italic;
+}
 
+.citationSource{
+    font-size: 0.8em;
+    font-style: normal;
+}
