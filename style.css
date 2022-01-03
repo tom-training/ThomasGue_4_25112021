@@ -701,7 +701,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto 5% auto;
 }
 
 h2 {
@@ -774,11 +774,11 @@ h4 {
     background-color: #F3976C;
 }
 
-/*
+
 .tc-white {
     color: #F3976C!important;
 }
-*/
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -1046,9 +1046,24 @@ h4 {
 .citationMaximeGuibard{
     font-size: 1.5em;
     font-style: italic;
+    color: #575757;
 }
 
 .citationSource{
     font-size: 0.8em;
     font-style: normal;
+    color: #575757;
+}
+
+.titreLaChouetteAgence{
+    color: #57577d;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title2{
+    color: #5c5757;
+    font-size: 1.6em;
+    text-align: center;
 }
