@@ -47,7 +47,7 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
+<header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 
 		<nav class="navbar row">
@@ -70,10 +70,10 @@
 				
 				<!--MODIF 14 lien sur la page elle-même, ce qui est incohérent -->
 
-				<p class="navbar-brand">
+				<h1 class="navbar-brand">
 					<img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" 
 					height="40" />
-				</p>
+				</h1>
 
 				<!-- MODIF 6 Technique de black hat -->
 
@@ -90,11 +90,11 @@
 					internet, site internet, site
 				</div>
 				-->
-				
-
+				<!--
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
+				-->
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
@@ -102,8 +102,12 @@
 					<li>
 						<a href="index.html">Accueil</a>
 					</li>
+
+					<!--
 					<li>
 					</li>
+					-->
+					
 					<li>
 						<a href="contact.html"> contact &gt;</a>
 					</li>
@@ -111,36 +115,38 @@
 			</div>
 		</nav>
 	</div>
-</div>
+</header>
 <!-- bloc-0 END -->
 
+<main>
+
 <!-- bloc-1-presentation -->
-<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge b-parallax" id="bloc-1-hero">
+<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge b-parallax" id="bloc-1-hero">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
 				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="La chouette agence, agence web paris, création logo paris" />
-				<h1 class="text-center hero-bloc-text tc-white ">
+				<h2 class="text-center hero-bloc-text tc-white ">
 					La chouette agence.
-				</h1>
+				</h2>
 				<div class="text-center">
-					<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+					<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-1-presentation END -->
 
 <!-- bloc-2-services -->
-<div class="bloc bgc-white l-bloc" id="bloc-2-services">
+<section class="bloc bgc-white l-bloc" id="bloc-2-services">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<p class=titreLaChouetteAgence>
+				<h2 class=titreLaChouetteAgence>
 					La chouette agence est une agence de web design qui aide <br>
 					 les entreprises à devenir attractives et visibles sur Internet.
-				</p>
+				</h2>
 			</div>
 		</div>
 		<div class="row voffset-lg med-width-whitespace">
@@ -196,11 +202,11 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-2-services END -->
 
 <!-- bloc-3-what-i-do -->
-<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc b-parallax" id="bloc-3-what-i-do">
+<section class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc b-parallax" id="bloc-3-what-i-do">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
@@ -219,23 +225,23 @@
 					 qui seront facilement trouvable sur les moteurs de recherche. 
 					 <br><br>
 					 
-					 <a class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a><br>
+					 <a class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a><br>
 				</p>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-3-what-i-do END -->
 
 <!-- bloc-4-portfolio -->
-<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<p class="title2">
+				<h2 class="title2">
 					Nous travaillons avec beaucoup de clients, <br>
 					voici nos réalisations.
-				</p>
+				</h2>
 			</div>
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
@@ -281,28 +287,30 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-4-portfolio END -->
 
 <!-- bloc-5-cta -->
-<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc" id="bloc-5-cta">
+<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc" id="bloc-5-cta">
 	<div class="container bloc-lg">
 		<div class="row">
 			<h2 class="mg-md text-center tc-white">
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
 			<div class="col-sm-12 text-center">
-				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">
+				<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">
 					Contact
 				</a>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-5-cta END -->
 
+</main>
+
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -399,7 +407,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 <!-- Footer - bloc-8 END -->
 
 </div>
