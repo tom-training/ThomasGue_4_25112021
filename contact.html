@@ -30,11 +30,13 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     <!-- MODIF 27 et MODIF 28  il ne devrait pas y avoir de xxx.min.js-->
+	<!-- MODIF 33 Il faut déplacer dans le body les balises scrip et leur donner l'attribut defer 
 	<script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
+	-->
 
 	<!-- MODIF 8:  des mots clés dans la balise title -->
     <title>page Contact de la Chouette Agence</title>
@@ -147,6 +149,8 @@
 					</button>
 				</form>
 			</div>
+
+			<!-- MODIF 34 déplacement de l'adresse de la Chouette Agence dans le footer 
 			<div class="col-sm-6">
 				<p>
 					contact@lachouetteagence.com
@@ -154,6 +158,8 @@
 					<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
 			</div>
+
+			-->
 		</div>
 	</div>
 </section>
@@ -175,9 +181,20 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
+
+				<!-- MODIF 34 déplacement de l'adresse de la Chouette Agence dans le footer -->
 				<p class="text-center white">
 					La chouette agence - Agence web basée à Lyon.<br>
+					2 place Sathonay 69001 Lyon <br>
+					Ouvert de 9h à 18h, du lundi au vendredi
 				</p>
+				<p class="text-center">
+					<a href="mailto:contact@lachouetteagence.com" class="pourCentrer">
+						contact@lachouetteagence.com
+					</a>
+				</p>
+				
+
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
@@ -208,7 +225,13 @@
 
 </div>
 <!-- Principal conteneur END -->
-    
+
+<!--MODIF 33 Il faut ajouter l'attribut defer -->
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.js" defer></script>
+	<script src="./js/blocs.js" defer></script>
+	<script src="./js/jqBootstrapValidation.js" defer></script>
+	<script src="./js/formHandler.js" defer></script>
 
 </body>
 </html>
