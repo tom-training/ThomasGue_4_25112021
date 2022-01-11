@@ -59,12 +59,10 @@
 		<nav class="navbar row">
 			<div class="navbar-header">
 
-				<h1>
-					<a class="navbar-brand" href="index.html">
-						<img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" />
-					</a>
-				</h1>
-				
+				<a class="navbar-brand" href="index.html" aria-label="lien vers la page d'accueil">
+					<img src="img/la-chouette-agence.png" alt="logo de la chouette agence" height="40" />
+				</a>
+								
 				<!--MODIF 25  Le bouton ci-dessous est inactivable
 				
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
@@ -75,9 +73,9 @@
 
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
+				<ul class="site-navigation nav navbar-nav" role="navigation">
 					<li>
-						<a href="index.html">Accueil</a>
+						<a href="index.html" aria-label="aller sur la page d'accueil">Accueil</a>
 					</li>
 
 					<!--
@@ -86,7 +84,7 @@
 					-->
 
 					<li>
-						<a href="contact.html">contact &gt;</a>
+						<a href="contact.html" aria-label="rester sur la page: Contactez nous">contact &gt;</a>
 					</li>
 				</ul>
 			</div>
@@ -102,9 +100,9 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<h2 class="text-center hero-bloc-text tc-white">
+				<h1 class="text-center hero-bloc-text tc-white">
 					Parlons web design !
-				</h2>
+				</h1>
 				<p class="text-center mg-lg tc-white tight-width-whitespace">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
@@ -122,12 +120,13 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." 
 				fail-msg="Sorry it seems that our mail server is not responding, 
-				Sorry for the inconvenience!" role="form">
+				Sorry for the inconvenience!">
 					<div class="form-group">
 						<label>
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<!-- MODIF 36 ARIA AND NATIVE HTML  il faut rajouter le type -->
+						<input type= "text" id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label>
@@ -135,20 +134,48 @@
 						</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
+
+					<!-- MODIF 36-->
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<!-- <div class="form-control" id="input_504">-->
+						<div> 
+							<div>
+								<input type="radio" name="comment" id="recherche" 
+								value="recherche internet" checked>
+								<label for="recherche"> En cherchant sur internet </label> 
+							</div>
+							<div>
+								<input type="radio" name="comment" id="recommandation" 
+								value="recommandation">
+								<label for="recommandation"> Par recommandation </label> 
+							</div>
+							<div>
+								<input type="radio" name="comment" id="ancien" 
+								value="ancien client">
+								<label for="ancien"> Je suis un ancien client </label> 
+							</div>
+							<div>
+								<input type="radio" name="comment" id="autre" 
+								value="autre">
+								<label for="autre"> Autres raisons </label> 
+							</div>
+						</div>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message" > <!-- MODIF 36 rajout du for="id" -->
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<!-- MODIF 36 on retire le required-->
+						<textarea id="message" class="form-control" rows="4" cols="50"></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
+
+					<!-- MODIF 36 Reécriture du native HTML -->
+					<input type="submit" value="Envoyer" class="bloc-button btn btn-lg btn-block 
+					cta-hero btn-atomic-tangerine">
+					
 				</form>
 			</div>
 
@@ -200,22 +227,41 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<!-- MODIF 36 Ajout d'attribut ARIA -->
+							<a class="social" href="index.html">
+								<span class="fa fa-twitter icon-md" role="img" 
+								aria-label="icone de twitter">
+								</span>
+							</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<!-- MODIF 36 Ajout d'attribut ARIA -->
+							<a class="social" href="index.html">
+								<span class="fa fa-facebook icon-md" role="img" 
+								aria-label="icone de facebook">
+							</span>
+						</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<!-- MODIF 36 Ajout d'attribut ARIA -->
+							<a class="social" href="index.html">
+								<span class="fa fa-dribbble icon-md" role="img"
+								aria-label="icone de dribbble">
+								</span>
+							</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="index.html">
+								<span class="fa fa-instagram icon-md" role="img"
+								aria-label="icone d'instagram">
+								</span>
+							</a>
 						</div>
 					</div>
 				</div>

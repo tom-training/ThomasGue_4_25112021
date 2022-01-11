@@ -848,6 +848,13 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
+    /* MODIF 35 */
+
+    .social{
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -888,6 +895,13 @@ h4 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+
+    /* MODIF 35 */
+
+    .social{
+        display: flex;
+        justify-content: space-around;
     }
 }
 
@@ -1027,6 +1041,12 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    /* MODIF 35 */
+    .social{
+        display: flex;
+        justify-content: space-around;
     }
 }
 
