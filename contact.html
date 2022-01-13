@@ -123,14 +123,14 @@
 
 				<form id="form_1">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
 						<!-- MODIF 36 ARIA AND NATIVE HTML  il faut rajouter le type -->
 						<input type= "text" id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
 						<input id="email" class="form-control" type="email" required />
@@ -138,7 +138,7 @@
 
 					<!-- MODIF 36-->
 					<div class="form-group">
-						<label>
+						<label for="comment">
 							Comment nous avez-vous connu ?
 						</label>
 						<!-- <div class="form-control" id="input_504">-->
@@ -146,22 +146,22 @@
 							<div>
 								<input type="radio" name="comment" id="recherche" 
 								value="recherche internet" checked>
-								<label for="recherche"> En cherchant sur internet </label> 
+								<label for="recherche" name="comment"> En cherchant sur internet </label> 
 							</div>
 							<div>
 								<input type="radio" name="comment" id="recommandation" 
 								value="recommandation">
-								<label for="recommandation"> Par recommandation </label> 
+								<label for="recommandation" name="comment"> Par recommandation </label> 
 							</div>
 							<div>
 								<input type="radio" name="comment" id="ancien" 
 								value="ancien client">
-								<label for="ancien"> Je suis un ancien client </label> 
+								<label for="ancien" name="comment"> Je suis un ancien client </label> 
 							</div>
 							<div>
 								<input type="radio" name="comment" id="autre" 
 								value="autre">
-								<label for="autre"> Autres raisons </label> 
+								<label for="autre" name="comment"> Autres raisons </label> 
 							</div>
 						</div>
 					</div>
