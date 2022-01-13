@@ -774,7 +774,7 @@ h4 {
 
     /* MODIF 41 Amplifier les contrastes 
     background-color: #F3976C; */
-    background-color: #e95510;
+    background-color: #cb4101;
 }
 
 
@@ -789,16 +789,16 @@ h4 {
 
     /* MODIF 41 Amplifier le contrastes de couleurs entre texte et fonds 
     background: #F3976C; */
-    background-color: #e95510;
+    background-color: #cb4101;
 
     /* MODIF 41 Amplifier le contrastes de couleurs entre texte et fonds */
-    color: black!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     /* MODIF 41 Amplifier le contrastes de couleurs entre texte et fonds */
-    color: rgb(74,74,74)!important;
+    color: white!important;
 }
 
 .ltc-white {
@@ -1109,6 +1109,11 @@ a:focus{
 
 footer p{
     font-size: 22px;
+}
+
+.pourCentrer{
+    background-color: #F3976C;
+    padding: 1.5px;
 }
 
 
