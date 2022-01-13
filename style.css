@@ -771,7 +771,10 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+
+    /* MODIF 41 Amplifier les contrastes 
+    background-color: #F3976C; */
+    background-color: #e95510;
 }
 
 
@@ -783,7 +786,10 @@ h4 {
 
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+
+    /* MODIF 41 Amplifier le contrastes de couleurs entre texte et fonds 
+    background: #F3976C; */
+    background-color: #e95510;
 
     /* MODIF 41 Amplifier le contrastes de couleurs entre texte et fonds */
     color: black!important;
