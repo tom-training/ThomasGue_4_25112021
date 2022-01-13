@@ -776,18 +776,23 @@ h4 {
 
 
 .tc-white {
-    color: #F3976C!important;
+    /* MODIF 41 Amplifier le contrastes de couleurs entre texte et fonds 
+    color: #F3976C!important; */
+    color: white!important;
 }
 
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+
+    /* MODIF 41 Amplifier le contrastes de couleurs entre texte et fonds */
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    /* MODIF 41 Amplifier le contrastes de couleurs entre texte et fonds */
+    color: rgb(74,74,74)!important;
 }
 
 .ltc-white {
@@ -1095,6 +1100,11 @@ h1{
 a:focus{
     box-shadow: 5px 5px 5px lightgrey;
 }
+
+footer p{
+    font-size: 22px;
+}
+
 
 
 
