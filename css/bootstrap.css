@@ -2010,7 +2010,7 @@ pre code {
     margin-left: auto
 }
 
-/* MODIF 29 
+/* MODIF 
 
 .row {
     
@@ -7679,6 +7679,7 @@ button.close {
     text-align: center;
     list-style: none
 }
+
 /* MODIF 30 #000\9 n'est pas une valeur valide en CSS */
 .carousel-indicators li {
     display: inline-block;
