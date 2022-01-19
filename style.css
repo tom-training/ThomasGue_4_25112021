@@ -772,14 +772,14 @@ h4 {
 
 .bgc-atomic-tangerine {
 
-    /* MODIF 41 Amplifier les contrastes 
+    /* MODIF 33 Amplifier les contrastes 
     background-color: #F3976C; */
     background-color: #cb4101;
 }
 
 
 .tc-white {
-    /* MODIF 41 Amplifier le contrastes de couleurs entre texte et fonds 
+    /* MODIF 33 Amplifier le contrastes de couleurs entre texte et fonds 
     color: #F3976C!important; */
     color: white!important;
 }
@@ -787,17 +787,17 @@ h4 {
 
 .btn-atomic-tangerine {
 
-    /* MODIF 41 Amplifier le contrastes de couleurs entre texte et fonds 
+    /* MODIF 33 Amplifier le contrastes de couleurs entre texte et fonds 
     background: #F3976C; */
     background-color: #cb4101;
 
-    /* MODIF 41 Amplifier le contrastes de couleurs entre texte et fonds */
+    /* MODIF 33 Amplifier le contrastes de couleurs entre texte et fonds */
     color: white!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    /* MODIF 41 Amplifier le contrastes de couleurs entre texte et fonds */
+    /* MODIF 33 Amplifier le contrastes de couleurs entre texte et fonds */
     color: white!important;
 }
 
@@ -860,7 +860,7 @@ h4 {
         max-width: 100%
     }
 
-    /* MODIF 35 */
+    /* MODIF 30 */
 
     .social{
         display: flex;
@@ -915,7 +915,7 @@ h4 {
         */
     }
 
-    /* MODIF 35 */
+    /* MODIF 30 */
 
     .social{
         display: flex;
@@ -1061,7 +1061,7 @@ h4 {
         height: 320px;
     }
 
-    /* MODIF 35 */
+    /* MODIF 30 */
     .social{
         display: flex;
         justify-content: space-around;

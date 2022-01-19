@@ -7680,7 +7680,7 @@ button.close {
     list-style: none
 }
 
-/* MODIF 30 #000\9 n'est pas une valeur valide en CSS */
+/* MODIF 25 #000\9 n'est pas une valeur valide en CSS */
 .carousel-indicators li {
     display: inline-block;
     width: 10px;
@@ -7688,7 +7688,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #0009;   /* MODIF 30 #000\9 n'est pas une valeur valide en CSS */
+    background-color: #0009;   /* MODIF 25 #000\9 n'est pas une valeur valide en CSS */
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px

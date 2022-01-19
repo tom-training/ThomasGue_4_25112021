@@ -9,10 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     
 
-	<!-- MODIF 31 -->
+	<!-- MODIF 26 -->
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 
-	<!--	MODIF 27 suppression des liens vers des fichiers css inexistants
+	<!--	MODIF 24 suppression des liens vers des fichiers css inexistants
 		 <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 		 <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 		 <link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
@@ -22,15 +22,20 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
 
-	<!-- MODIF 27 
+	<!-- MODIF 24 
 	Il manque un lien avec la feuille de style bootstrap.css
 	-->
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+
+	<!--
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css"> -->
+
+	<link rel="stylesheet" href="./css/bootstrap.css" media="none" onload="if(media!='all')media='all'">
+
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
-    <!-- MODIF 27 et MODIF 28  il ne devrait pas y avoir de xxx.min.js-->
-	<!-- MODIF 33 Il faut déplacer dans le body les balises scrip et leur donner l'attribut defer 
+    <!-- MODIF 24 il ne devrait pas y avoir de xxx.min.js-->
+	<!-- MODIF 28 Il faut déplacer dans le body les balises scrip et leur donner l'attribut defer 
 	<script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
@@ -126,7 +131,7 @@
 						<label for="name">
 							Nom
 						</label>
-						<!-- MODIF 36 ARIA AND NATIVE HTML  il faut rajouter le type -->
+						<!-- MODIF 31 ARIA AND NATIVE HTML  il faut rajouter le type -->
 						<input type= "text" id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
@@ -136,7 +141,7 @@
 						<input id="email" class="form-control" type="email" required />
 					</div>
 
-					<!-- MODIF 36-->
+					<!-- MODIF 32 il faut utiliser un input type radio -->
 					<div class="form-group">
 						
 						<!-- <div class="form-control" id="input_504">-->
@@ -169,21 +174,21 @@
 						</fieldset>
 					</div>
 					<div class="form-group">
-						<label for="message" > <!-- MODIF 36 rajout du for="id" -->
+						<label for="message" > <!-- MODIF 34 rajout du for="id" -->
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label>
-						<!-- MODIF 36 on retire le required-->
+						<!-- MODIF 34 on retire le required-->
 						<textarea id="message" class="form-control" rows="4" cols="50"></textarea>
 					</div> 
 
-					<!-- MODIF 36 Reécriture du native HTML -->
+					<!-- MODIF 34 Reécriture du native HTML -->
 					<input type="submit" value="Envoyer" class="bloc-button btn btn-lg btn-block 
 					cta-hero btn-atomic-tangerine">
 					
 				</form>
 			</div>
 
-			<!-- MODIF 34 déplacement de l'adresse de la Chouette Agence dans le footer 
+			<!-- MODIF 29 déplacement de l'adresse de la Chouette Agence dans le footer 
 			<div class="col-sm-6">
 				<p>
 					contact@lachouetteagence.com
@@ -215,7 +220,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 
-				<!-- MODIF 34 déplacement de l'adresse de la Chouette Agence dans le footer -->
+				<!-- MODIF 29 déplacement de l'adresse de la Chouette Agence dans le footer -->
 				<h2 class="text-center white"> La chouette agence - Agence web basée à Lyon. </h2>
 
 				<p class="text-center white">
@@ -233,7 +238,7 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<!-- MODIF 36 Ajout d'attribut ARIA -->
+							<!-- MODIF 31 Ajout d'attribut ARIA -->
 							<a class="social" href="index.html" aria-label="lien vers twitter">
 								<span class="fa fa-twitter icon-md" role="img">
 								</span>
@@ -242,7 +247,7 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<!-- MODIF 36 Ajout d'attribut ARIA -->
+							<!-- MODIF 31 Ajout d'attribut ARIA -->
 							<a class="social" href="index.html" aria-label="lien vers facebook">
 								<span class="fa fa-facebook icon-md" role="img">
 							</span>
@@ -251,7 +256,7 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<!-- MODIF 36 Ajout d'attribut ARIA -->
+							<!-- MODIF 31 Ajout d'attribut ARIA -->
 							<a class="social" href="index.html" aria-label="lien vers dribbble">
 								<span class="fa fa-dribbble icon-md" role="img">
 								</span>
@@ -276,7 +281,7 @@
 </div>
 <!-- Principal conteneur END -->
 
-<!--MODIF 33 Il faut ajouter l'attribut defer -->
+<!--MODIF 28 Il faut ajouter l'attribut defer -->
 	<script src="./js/jquery-2.1.0.js" defer></script>
 	<script src="./js/bootstrap.js" defer></script>
 	<script src="./js/blocs.js" defer></script>
